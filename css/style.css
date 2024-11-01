@@ -1,0 +1,235 @@
+.settings_page_wpenforcer #wpcontent {
+    padding: 0;
+}
+
+.settings_page_wpenforcer .notice {
+    margin: 0;
+}
+
+#wpe-plugin-wrapper {
+    background-color: #f1f1f1;
+}
+
+#wpe-plugin-wrapper a {
+    text-decoration: none;
+}
+
+/*
+ * WPE Header
+ */
+#wpe-header-wrapper {
+    background-color: #fff;
+    box-shadow: 0 1px 0 #ccd0d4, 0 1px 1px 1px rgba(0,0,0,0.04);
+    padding: 10px 0 5px 10px;
+    height: 35px;
+}
+
+#wpe-header {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1040px;
+}
+
+#wpe-header #wpe-logo {
+    float: left;
+}
+
+#wpe-header #wpe-logo a {
+    text-decoration: none;
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+}
+
+#wpe-header #wpe-logo a img {
+    height: 32px;
+}
+
+#wpe-header #wpe-logo code {
+    margin-left: 5px;
+    padding: 5px 10px;
+    border-radius: 2px;
+    color: #ffffff;
+    /* background: #e6ecf1;
+    color: #647a88; */
+}
+
+#wpe-header #wpe-button-switch {
+    float: right;
+}
+
+#wpe-header .wpe-button-switch {
+    background: #f3f5f6;
+    color: #0071a1;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    outline: 0;
+    overflow: hidden;
+    font-size: .875rem;
+    text-decoration: none;
+    vertical-align: top;
+    padding: 7px 14px 9px;
+    padding: 0 10px;
+    line-height: 2;
+}
+
+#wpe-header .wpe-button-switch-left {
+    border-top: 1px solid #0071a1;
+    border-bottom: 1px solid #0071a1;
+    border-left: 1px solid #0071a1;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-right: -4px;
+}
+
+#wpe-header .wpe-button-switch-right {
+    border-top: 1px solid #0071a1;
+    border-bottom: 1px solid #0071a1;
+    border-right: 1px solid #0071a1;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#wpe-header .wpe-button-switch-primary {
+    background: #007cba;
+    border-color: #007cba;
+    color: #ffffff;
+}
+
+/*
+ * WPE Body
+ */
+#wpe-body {
+    margin: 0 auto;
+    max-width: 65rem;
+    color: #414141;
+    padding: 10px;
+}
+
+#wpe-body  .wpe-400-weight {
+    font-weight: 400;
+}
+
+#wpe-body p {
+    margin: 0;
+    width: 100%;
+}
+
+#wpe-body .wpe-section-header {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#wpe-body .wpe-content-container {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    background: #fff;
+    font-size: 14px;
+    box-shadow: 0 0 0 1px #ccd0d4, 0 1px 1px 1px rgba(0,0,0,.04);
+}
+
+#wpe-body .wpe-text-right {
+    text-align: right;
+}
+
+#wpe-body .wpe-forty-nine {
+    width: 49%;
+}
+
+#wpe-body .wpe-left {
+    float: left;
+}
+
+#wpe-body .wpe-right {
+    float: right;
+}
+
+#wpe-body .wpe-clear-both {
+    clear: both;
+}
+
+#wpe-body .wpe-content-header {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    padding: 16px 24px;
+    position: relative;
+    background: #fff;
+    box-shadow: 0 0 0 1px #ccd0d4, 0 1px 1px 1px rgba(0,0,0,.04);
+}
+
+#wpe-body .wpe-content-body {
+    padding: 24px;
+    background: #fff;
+    box-shadow: 0 0 0 1px #ccd0d4, 0 1px 1px 1px rgba(0,0,0,.04);
+}
+
+#wpe-body input[type=checkbox] {
+    margin: -2px 5px 0 0;
+}
+
+#wpe-body .wpe-cursor-hover:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/*
+ * WPE All
+ */
+.wpe-table {
+    text-align: left;
+    width: 100%;
+}
+
+.wpe-success {
+    color: #28a745;
+}
+
+.wpe-background-success {
+    background-color: #28a745;
+}
+
+.wpe-danger {
+    color: #dc3545;
+}
+
+.wpe-background-danger {
+    background-color: #dc3545;
+}
+
+.wpe-info {
+    color: #17a2b8;
+}
+
+.wpe-warning {
+    color: #ffc107;
+}
+
+.wpe-background-info {
+    background-color: #17a2b8;
+}
+
+.wpe-background-warning {
+    background-color: #ffc107;
+}
+
+#wpe-body .wpe-cursor-hover-warning:hover {
+    color: #ffc107;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.wpe-background-default {
+    background-color: #6c757d;
+}
+
+.wpe-table-right-pad {
+    padding-right: 20px;
+}
+
+#wpe-access-key {
+    max-width: 330px;
+    width: 100%;
+}
